@@ -84,7 +84,7 @@ function setup() {
 
   
   trex.setCollider("rectangle",15,0,trex.width,trex.height);
-  trex.debug = true
+//  trex.debug = true
   
   score = 0;
   
@@ -191,7 +191,7 @@ function spawnObstacles(){
     var obstacle = createSprite(600,height-170,20,30);
    obstacle.velocityX = -(6 + score/100);
    obstacle.setCollider('circle',0,0,35)
-   obstacle.debug = true
+   //obstacle.debug = true
    
     //generate random obstacles
     var rand = Math.round(random(1,3));
